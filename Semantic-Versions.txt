@@ -1,0 +1,27 @@
+// Semantic Versioning (SemVer) usa este formato:
+//
+//   MAJOR.MINOR.PATCH
+//
+// Ejemplo:
+//
+//   2.4.1
+//
+// MAJOR:
+// Cambia cuando hay cambios incompatibles.
+// Ejemplo: una función cambia su forma de usarse y puede romper código existente.
+//
+// MINOR:
+// Cambia cuando se agregan nuevas funcionalidades sin romper lo anterior.
+// Ejemplo: se agrega una nueva función, pero lo viejo sigue funcionando.
+//
+// PATCH:
+// Cambia cuando se corrigen errores sin agregar funciones nuevas ni romper compatibilidad.
+// Ejemplo: bug fixes.
+//
+// Ejemplo:
+//
+//   1.2.3
+//   │ │ │
+//   │ │ └── PATCH: corrección de errores
+//   │ └──── MINOR: nuevas funciones compatibles
+//   └────── MAJOR: cambios que pueden romper compatibilidad
